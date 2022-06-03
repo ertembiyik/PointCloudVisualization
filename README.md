@@ -12,12 +12,15 @@ I managed to get feature points which `ARKit` uses to locate device in space. On
 
 The results are unsatisfactory. Because the amount of points is very big, the computation takes too much time. Also the resulting mesh is very imprecise because the accuracy of digital triangulation (which i get from ARKit on device without lidar) is low.
 
-*Point cloud from ARKit visualized:*
-![Point Cloud](pointcloud.png "Point cloud from ARKit visualized")
 
-*Mesh result from ball pivoting algorithm:*
-![Mesh Result](meshresult.png "Mesh result from ball pivoting algorithm")
+|![Point Cloud](pointcloud.png "Point cloud from ARKit visualized")|
+|:-:|
+|*Point cloud from ARKit visualized*|
 
+
+|![Mesh Result](meshresult.png "Mesh result from ball pivoting algorithm")|
+|:-:|
+|*Mesh result from ball pivoting algorithm*|
 ## Further improvements
 
 - Try to validate ARKit point cloud to improve accuracy
