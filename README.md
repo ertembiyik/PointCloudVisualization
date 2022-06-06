@@ -1,4 +1,4 @@
-## Point Cloud Visualization
+# Point Cloud Visualization
 
 ## Goal
 
